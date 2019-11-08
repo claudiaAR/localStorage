@@ -1,0 +1,55 @@
+ html{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.back{
+  background:rgba(219, 219, 219, 0.192);
+  width: 12rem;
+  margin-left: 1rem;
+  padding: 0.5rem 3rem;
+  box-shadow:20px 11px 32px -5px rgb(166, 166, 243) ;
+}
+
+main{
+  width: 7rem;
+  margin: 2rem;
+  color:darkblue;
+} 
+
+input:focus{
+    outline:0;
+}
+
+ul {
+    display: grid;
+    grid: auto-flow / auto 1fr;
+  }
+  h3{
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+  li {
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+  label {
+    grid-column: 2;
+    margin: 0.4rem 0.1rem;
+  }
+  input {
+    grid-column: 2;
+  
+  }
+
+  button{
+    padding: 0.2rem 2.4rem;
+    margin-top: 0.5rem;
+    background: darkblue;
+    color: white;
+    border: none;
+    font-size: 1rem;
+  }
